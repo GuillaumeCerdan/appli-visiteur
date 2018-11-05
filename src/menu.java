@@ -21,14 +21,14 @@ menu(){
   
 	JFrame f= new JFrame("GSB-Intranet"); 
 	JMenuBar mb=new JMenuBar();
-	mb.setBackground(Color.BLUE);
+	mb.setBackground(new Color (0,63,128));
 	mb.setForeground(Color.WHITE);
     UIManager.put("Menu.foreground", Color.white);
-    UIManager.put("MenuItem.background", Color.blue);
+    UIManager.put("MenuItem.background", new Color (0,63,128));
     UIManager.put("MenuItem.foreground", Color.white);
-    UIManager.put("Menu.selectionBackground", Color.blue);
+    UIManager.put("Menu.selectionBackground", new Color (0,63,128));
     UIManager.put("Menu.selectionForeground", Color.white);
-    UIManager.put("MenuItem.selectionBackground", Color.blue);
+    UIManager.put("MenuItem.selectionBackground", new Color (0,63,128));
     UIManager.put("MenuItem.selectionForeground", Color.white);
 
 
